@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Follow me</title>
+	<link rel="stylesheet" type="text/css" href="Hyline.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="https://kit.fontawesome.com/bc1a24fa84.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+			<nav>
+				<img src="logo.PNG" class="logo">
+				<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#Service">Service</a></li>
+					<li><a href="#Portfolio">Portfolio</a></li>
+					<li><a href="#Contact">Contact</a></li>
+					<i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+					</ul>
+					<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+				</nav>
+				<div class="header-text">
+				<p><strong>UI/UX Designer</strong></p>
+				<h1>Hello, I'm<span> Hyline Achieng</span></h1>
+				</div>
+		</div>
+</div>
+<!------About------>
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="About-col-1">
+			<img src="Capture.PNG" class="img">
+			</div>
+			<div class="About-col-2">
+				<h1 class="header-one"><span>About me</span></h1> 
+	     		 <p>
+					Am a dynamic and dedicated Information Communication and Technology profession, specialized in networking and administration, I am also a certified Microsoft specialist in excel and database. Have proven my success in customer service, technical support, data entry and management operation in a few institutions at entry levels.
+				</p>
+				<div class="tab-titles">
+				<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+				<p class="tab-links" onclick="opentab('experience')">Experience</p>
+				<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>UI/UX</span><br>Designing logos,Flayers,Burners<br>Desing and developing websites</li>
+						<li><span>Data analyst</span><br>Data entry,Data analysis.<br>Data visualization</li>
+						<li><span>Customer servive</span><br>Handling inquiries.<br>Maintaining records.<br>Proving suport.</li>
+					</ul> 
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span>Jan 2021-Current</span><br>Cyber and M-Pesa Attendant<br>Steve Technologies Solution</li>
+						<li><span>June 2020-Dec 2020</span><br>Attache'/Volunteer<br>National Hospital Insuarence Fund</li>
+						<li><span>May 2018-Aug 2018</span><br>Assiatant store keeper<br>Siloam Hospital Kericho</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>Sept 2016-April 2021</span><br>Bachelor of Science<br>Information Communication Technology<br>Second class upper<br>Pioneer Internationa University</li>
+						<li><span>January2018-April 2018</span><br>Microsoft Technology Associates for<br>Datadase Adminstration Fundamentals<br>Microsoft Technology Associate for Excel<br>Microsoft Imagine Academy</li>
+						<li><span>Feb 2012-Nov 2015</span><br>Kenya Certifacite of Secondary Education<br>56 Points B-<br>Kakibei Secondary School</li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		
+		
+		
+		
+	</div>
+</div>
+
+<!----Services---->
+<div id="Service">
+<div class="container">
+<h1 class="sub-title"><span>My Service</span></h1>
+<div class="Service-list">
+<div>
+	
+	<h2>IT SERVICES</h2>
+	<i class="fa-solid fa-web-awesome"></i>
+	<i class="fa-solid fa-file-excel"></i>
+	<i class="fa-solid fa-globe"></i>
+
+	<p>Web,Logo and Flayer desining using Figma.<br> Front end Web development using HTML, CSS and JavaScript.<br>Data Enty and Analysis using excel.<br>Internet Services on various platfoms such as iTax, E-Citizens</p>
+	<a href="#">Learn more</a>
+</div>
+
+	
+</div>
+	
+</div>
+	
+</div>
+<!----Portfolio--->
+<div id="Portfolio">
+	<div class="container">
+		<h1 class="sub-title"><span>My Work</span></h1>
+		<div class="Work-list">
+			<div class="Work">
+			<img src="Programming.png">
+			<div class="layer">
+				<h3>Web Developmet</h3>
+				<p>Front End programming using HTML and CSS</p>
+				<a href="#"><i class="fa-brands fa-html5"></i></a>
+			</div>
+			</div>
+			<div class="Work">
+			<img src="Designing.png">
+			<div class="layer">
+				<h3>Web Designing</h3>
+				<p>Responsive Web Designing usimg fgma</p>
+				<a href="#"><i class="fa-brands fa-figma"></i></a>
+			</div>
+			</div>
+		</div>
+		<a href="#" class="button">See more</a>
+	</div>
+</div>
+<!----Comtact-->
+<div id="Contact">
+<div class="container">
+<div class="row">
+<div class="contact-left">
+	<h1 class="sub-title">Contact Me</h1>
+	<p><i class="fa-solid fa-envelope"></i>hyline.otieno10@gmail.com</p>
+	<p><i class="fa-solid fa-square-phone"></i>0742328681</p>
+	<div class="Social-icons">
+	<a href="https://facebook.com"><i class="fa-brands fa-tiktok"></i></a>
+	<a href=""><i class="fa-brands fa-whatsapp"></i></a>
+	<a href=""><i class="fa-brands fa-linkedin"></i></a>
+	<a href=""><i class="fa-brands fa-facebook"></i></a>
+	</div>
+	<a href="../hyline/Hylinepdf.pdf" download class="button-2">Download CV</a>
+</div>
+<div class="contact-right"></div>
+<form> 
+	<input type="text" name="Name" placeholder="Your Name" required>
+	<input type="Email" name="Email" placeholder="Your Email" required>
+	<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+	<button type="Submit">Submit</button>
+</form>
+</div>
+<div class="copyright">
+	<p>Copyright @ Hyline 2024</p>
+</div>
+</div>
+</div>
+<script>
+
+	 var tablinks = document.getElementsByClassName("tab-links");
+	 var tabcontents = document.getElementsByClassName("tab-contents");
+	 function opentab(tabname){
+	 	for(tablink of tablinks){
+	 		tablink.classList.remove("active-link");
+	 	}
+	 	for(tabcontent of tabcontents){
+	 		tabcontent.classList.remove("active-tab");
+	 	}
+	 	event.currentTarget.classList.add("active-link");
+	 	document.getElementById(tabname).classList.add("active-tab");
+	 	}
+	</script>
+	<script>
+			
+	 	
+	let sidemenu = document.getElementById("sidemenu");
+	function openmenu(){
+		sidemenu.style.right = "0";
+	}
+	function closemenu(){
+		sidemenu.style.right = "-200px";
+	}
+	</script>	
+ <script>
+	
+	</script>
+	
+ </body>
+  </html>
